@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.test {
+.hero-section {
+    position:relative;
+    display:inline-block;
+    color: white;
+}
+
+.hero-section img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+.hero-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
+    font-size: 85px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
 }
 
 button {
@@ -17,18 +33,25 @@ body {
     background: white;
     display: flex;
     flex-direction: column;
+    margin: 3rem;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    padding: 50px;
+    border: 2px;
 }
 
 .left-side,.right-side {
     display: flex;
-    gap: 1.5rem;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
+}
+
+.right-side {
+    font-family: 'Poppins', sans-serif;
 }
 
 .ohbe-logo-nav {
