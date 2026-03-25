@@ -15,14 +15,18 @@
 }
 
 .hero-text {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 80px;
+    
     line-height: 1.25;
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-90%, -65%);
+    transform: translate(-80%, -65%);
+}
+
+.hero-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
 }
 
 button {
@@ -115,12 +119,26 @@ h3 {
     width: 100%;
 }
 
+.live-ohbe-section {
+    position:relative;
+    display:inline-block;
+    color: white;
+}
+
 .live-ohbe-image {
     display: block;
     width: 100%;
     height:auto;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.live-ohbe-type {
+    line-height: 1.25;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -55%);
 }
 
 .product-button {
@@ -175,21 +193,16 @@ button {
     padding-bottom: 10px;
 }
 
-.contact-email {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-}
-
 .contact-info {
-    margin-left: 20px;
+    display: block;
+    margin-left: 10px;
 }
 
 .contact-image {
     display: block;
-    width: 100%;
+    width: 70%;
     height:auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
