@@ -139,6 +139,12 @@ h3 {
     font-size: 30px;
 }
 
+h5 {
+    font-family: "gotham", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .product-section {
     display: flex;
     overflow-x: auto;
@@ -201,17 +207,8 @@ h3 {
     border-radius: 40px;
 }
 
-.ohbe-logo-footer {
-    width: 10rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .footer-section {
     background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
     box-shadow: 0 0 0 100vmax black;
     clip-path: inset(0 -100vmax);
 }
@@ -246,11 +243,6 @@ button {
 
 
 @media screen and (max-width: 768px) {
-
-    .body {
-        height: 100vh;
-        height: 100dvh;
-    }
 
     .nav-bar {
         padding-left: 2rem;
