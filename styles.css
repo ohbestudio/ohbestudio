@@ -260,7 +260,9 @@ button {
     }
     
     .hero-text {
-        margin: 2rem;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        margin-right: 1rem;
     }
     
     .hero-h1 {
