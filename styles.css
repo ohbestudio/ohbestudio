@@ -228,8 +228,42 @@ button {
 
 @media screen and (max-width: 768px) {
 
+    .nav-bar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .right-side {
+        display: none;
+    }
+    
+    .ohbe-logo-nav {
+        width: 6rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-text {
+        margin: 2rem;
+    }
+    
     .hero-h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .product-item {
+        max-width: 250px;
+    }
+
+    .about-image {
+        max-width: 0;
     }
 
 }
