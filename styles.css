@@ -238,7 +238,7 @@ button {
     }
     
     .ohbe-logo-nav {
-        width: 6rem;
+        width: 8rem;
     }
 
     .hero-image {
@@ -251,19 +251,59 @@ button {
     }
     
     .hero-h1 {
-        font-size: 3rem;
+        font-size: 4rem;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
+    .about-section {
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .about-text {
+    margin-left: 0rem;
+    }
+
+    .visual-experience {
+    word-spacing: 6.3rem;
+    }
+
+    .handcrafted {
+        letter-spacing: 1.7rem;
+    }
+
+    .list-1 {
+    word-spacing: .9rem;
+    }
+
+    .list-2 {
+    word-spacing: .7rem;
+    }
+
+
     .product-item {
-        max-width: 250px;
+        max-width: 350px;
     }
 
     .about-image {
         max-width: 0;
+    }
+
+    .live-ohbe-type {
+        margin-left: 2rem;
+        margin-top: 8rem;
     }
 
 }
