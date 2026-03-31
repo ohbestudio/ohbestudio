@@ -21,6 +21,12 @@
     font-size: 5rem;
 }
 
+.hero-h3 {
+    font-family: "gotham", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
 button {
     height: 30px;
     width: 100px;
@@ -210,6 +216,12 @@ h3 {
     clip-path: inset(0 -100vmax);
 }
 
+.footer-text {
+    font-family: "gotham", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
 button {
     background-color: lightgray;
     border: none;
@@ -255,6 +267,10 @@ button {
         font-size: 3rem;
     }
 
+    .hero-h3 {
+        font-size: 25px;
+    }
+
     h1 {
         font-size: 50px;
     }
@@ -274,11 +290,11 @@ button {
     }
 
     .about-text {
-    margin-left: 0rem;
+        margin-left: 0rem;
     }
 
     .visual-experience {
-    word-spacing: 4.5rem;
+        word-spacing: 4.5rem;
     }
 
     .handcrafted {
@@ -286,16 +302,22 @@ button {
     }
 
     .list-1 {
-    word-spacing: 1.4rem;
+        word-spacing: 1.4rem;
     }
 
     .list-2 {
-    word-spacing: 1rem;
+        word-spacing: 1rem;
     }
 
 
     .product-item {
         max-width: 350px;
+    }
+
+    .product-button {
+        padding: 20px 100px;
+        font-size: 18px;
+        margin: 3px 1px;
     }
 
     .about-image {
@@ -305,6 +327,10 @@ button {
     .live-ohbe-type {
         margin-left: 2rem;
         margin-top: 8rem;
+    }
+
+    .footer-text {
+        font-size: 20px;
     }
 
 }
