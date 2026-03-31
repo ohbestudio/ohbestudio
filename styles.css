@@ -260,11 +260,11 @@ button {
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .about-section {
@@ -278,19 +278,19 @@ button {
     }
 
     .visual-experience {
-    word-spacing: 5rem;
+    word-spacing: 4rem;
     }
 
     .handcrafted {
-        letter-spacing: 1.45rem;
+        letter-spacing: 1.2rem;
     }
 
     .list-1 {
-    word-spacing: 1rem;
+    word-spacing: 1.4rem;
     }
 
     .list-2 {
-    word-spacing: .8rem;
+    word-spacing: 1rem;
     }
 
 
