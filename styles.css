@@ -210,8 +210,8 @@ h3 {
 
 .footer-section {
     background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 0 0 0 100vmax black;
     clip-path: inset(0 -100vmax);
 }
@@ -235,6 +235,12 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;
+}
+
+.copywright {
+    color: white;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -262,7 +268,7 @@ button {
     .hero-text {
         margin-left: 2rem;
         margin-top: 7rem;
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
     
     .hero-h1 {
