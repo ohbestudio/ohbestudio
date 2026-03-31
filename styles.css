@@ -1,32 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.hero-section {
-    position:relative;
-    display:inline-block;
+
+.hero-text {
     color: white;
+    line-height: 1.25;
+    position:absolute;
+    margin-left: 8rem;
+    margin-top: 6rem;
 }
-
-.hero-section img {
+.hero-image {
     display: block;
     width: 100%;
     height:auto;
-    margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.hero-text {
-    
-    line-height: 1.25;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, -65%);
-}
-
 .hero-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 80px;
+    font-family: "gotham", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
 }
 
 button {
@@ -41,19 +32,25 @@ body {
     background: white;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5px;
-    padding-top: 1px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 2px;
+    padding-top: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 1rem;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-side,.right-side {
@@ -64,12 +61,53 @@ body {
 }
 
 .right-side {
-    font-family: 'Poppins', sans-serif;
+    font-family: "gotham", sans-serif;
+    color: white;
+    gap: 8rem;
 }
 
 .ohbe-logo-nav {
     width: 10rem;
 }
+
+.about-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.about-image {
+    width: 650px;
+    height: auto;
+}
+
+.about-text {
+    margin-left: 5rem;
+}
+
+.about-top {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.visual-experience {
+    word-spacing: 8.2rem;
+}
+
+.handcrafted {
+    letter-spacing: 2.4rem;
+}
+
+.list-1 {
+    word-spacing: 2.8rem;
+}
+
+.list-2 {
+    word-spacing: 2rem;
+}
+
 
 a {
     text-decoration: none;
@@ -77,19 +115,19 @@ a {
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 50px;
+    font-family: "gotham", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
+    font-family: "gotham", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "gotham", sans-serif;
     font-weight: 300;
     font-size: 30px;
 }
@@ -115,14 +153,14 @@ h3 {
 }
 
 .product-image-01 {
-    display: flex;
+    display: block;
     width: 100%;
 }
 
 .live-ohbe-section {
     position:relative;
-    display:inline-block;
     color: white;
+    display: flex;
 }
 
 .live-ohbe-image {
@@ -130,28 +168,28 @@ h3 {
     width: 100%;
     height:auto;
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .live-ohbe-type {
     line-height: 1.25;
     position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-80%, -55%);
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
+    
 }
 
 .product-button {
+    position: absolute;
     background-color: lightgray;
     border: none;
     color: black;
     padding: 20px 100px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-family: "gotham", sans-serif;
+    font-size: 20px;
+    margin-top: 3rem;
     cursor: pointer;
     border-radius: 40px;
 }
@@ -179,30 +217,19 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'zalando sans expanded', sans-serif;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;
 }
 
-.contact-section {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-.contact-info {
-    display: block;
-    margin-left: 10px;
-}
 
-.contact-image {
-    display: block;
-    width: 70%;
-    height:auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+@media screen and (max-width: 768px) {
+
+    .hero-h1 {
+        font-size: 2rem;
+    }
+
 }
